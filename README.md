@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-ndarray-dsyr2/tags). For example,
+
+```javascript
 import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@v0.0.0-esm/index.mjs';
 ```
 
@@ -120,7 +125,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangle-resolve-enum@esm/index.mjs';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@v0.0.0-esm/index.mjs';
+import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
