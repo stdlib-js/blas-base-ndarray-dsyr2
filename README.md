@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@deno/mod.js';
+import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@v0.0.0-deno/mod.js';
 ```
 
 #### dsyr2( arrays )
@@ -115,7 +115,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangle-resolve-enum@deno/mod.js';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@deno/mod.js';
+import dsyr2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-ndarray-dsyr2@v0.0.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
